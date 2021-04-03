@@ -9,7 +9,6 @@ interface AirlineProps {
         avg_score: Number,
         slug: String
     }
-    
 }
 
 export function Airline(props: AirlineProps) {

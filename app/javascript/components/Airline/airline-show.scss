@@ -1,0 +1,74 @@
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.column {
+    background: #fff;
+    height: 100vh;
+    overflow: scroll;
+
+    &:last-child {
+        background: #000;
+    }
+}
+
+.main {
+    padding-left: 30px;
+}
+
+.header-wrapper {
+    padding: 50px 100px 50px 0;
+    font-size: 30px;
+
+    img {
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: -5px;
+        margin-right: 5px;
+    }
+
+}
+
+.total-reviews {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.total-out-of {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;;
+}
+
+.rating-container {
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 40px 0 10px 0;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+
+.rating-box {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: relative;
+
+    input {
+        display: none;
+    }
+
+    label {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        background-image: url();
+    }
+}
